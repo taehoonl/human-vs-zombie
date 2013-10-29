@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fileVersion 3.1.0?>
+
+<ManagedProjectBuildInfo>
+<project id="radio_example.com.ti.ccstudio.buildDefinitions.MSP430.ProjectType.445399190" name="MSP430" projectType="com.ti.ccstudio.buildDefinitions.MSP430.ProjectType">
+<configuration artifactExtension="out" artifactName="radio_example" description="" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.1965618290" name="Debug" parent="com.ti.ccstudio.buildDefinitions.MSP430.Debug">
+<toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.DebugToolchain.343904867" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.DebugToolchain" targetTool="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerDebug.506268717">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.389841442" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="3.2.1" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.429505903" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=MSP430F2274"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=lnk_msp430f2274.cmd"/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts430.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.3"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING.2031147774" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH.887177948" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers/bsp&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers/bsp/drivers&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers/bsp/boards/EZ430RF&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers/mrfi&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers/mrfi/radios/common&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${ProjDirPath}/../drivers/mrfi/radios/family1&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.236894108" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT" value="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.minimal" valueType="enumerated"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DEFINE.1105358313" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DEFINE" valueType="definedSymbols">
+<listOptionValue builtIn="false" value="__MSP430F2274__"/>
+<listOptionValue builtIn="false" value="MAX_HOPS=3"/>
+<listOptionValue builtIn="false" value="MRFI_CC2500"/>
+</option>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerDebug.506268717" name="MSP430 Linker" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerDebug">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE.455108479" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE" value="&quot;radio_example.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE.1176898877" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE" value="&quot;radio_example.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY.131418069" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts430.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH.542332031" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE.509865741" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE" value="80" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE.1816745550" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE" value="80" valueType="string"/>
+</tool>
+<macros expandEnvironmentMacros="true"/>
+</toolChain>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.1965618290./radio_example/simple_receive_app.c" name="simple_receive_app.c" rcbsApplicability="disable" resourcePath="/radio_example/simple_receive_app.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/simple_receive_app.c">
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/simple_receive_app.c" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.1965618290./radio_example/simple_send_app.c" name="simple_send_app.c" rcbsApplicability="disable" resourcePath="/radio_example/simple_send_app.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/simple_send_app.c">
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/simple_send_app.c" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="false" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.1965618290./radio_example/game.c" name="game.c" rcbsApplicability="disable" resourcePath="/radio_example/game.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/game.c">
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/game.c" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008"/>
+</resourceConfiguration>
+<resourceConfiguration exclude="true" id="com.ti.ccstudio.buildDefinitions.MSP430.Debug.1965618290./radio_example/gameBaseStation.c" name="gameBaseStation.c" rcbsApplicability="disable" resourcePath="/radio_example/gameBaseStation.c" toolsToInvoke="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/gameBaseStation.c">
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008./radio_example/gameBaseStation.c" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerDebug.918525008"/>
+</resourceConfiguration>
+</configuration>
+<configuration artifactExtension="out" artifactName="radio_example" description="" id="com.ti.ccstudio.buildDefinitions.MSP430.Release.834871184" name="Release" parent="com.ti.ccstudio.buildDefinitions.MSP430.Release">
+<toolChain id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.ReleaseToolchain.507318567" name="TI Code Generation Tools" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.ReleaseToolchain" targetTool="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerRelease.923774182">
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION.59392590" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_CODEGEN_VERSION" value="3.2.1" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS.43605317" superClass="com.ti.ccstudio.buildDefinitions.core.OPT_TAGS" valueType="stringList">
+<listOptionValue builtIn="false" value="DEVICE_CONFIGURATION_ID=MSP430F2274"/>
+<listOptionValue builtIn="false" value="DEVICE_ENDIANNESS=little"/>
+<listOptionValue builtIn="false" value="LINKER_COMMAND_FILE=lnk_msp430f2274.cmd"/>
+<listOptionValue builtIn="false" value="RUNTIME_SUPPORT_LIBRARY=rts430.lib"/>
+<listOptionValue builtIn="false" value="IS_ASSEMBLY_ONLY=false"/>
+<listOptionValue builtIn="false" value="CCS_MBS_VERSION=4.0.3"/>
+<listOptionValue builtIn="false" value="PROJECT_KIND=com.ti.ccstudio.managedbuild.core.ProjectKind_Executable"/>
+</option>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerRelease.340039924" name="MSP430 Compiler" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.compilerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING.1897324705" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.DIAG_WARNING" valueType="stringList">
+<listOptionValue builtIn="false" value="225"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH.1736836469" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.INCLUDE_PATH" valueType="includePath">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.1647861750" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT" value="com.ti.ccstudio.buildDefinitions.MSP430_3.2.compilerID.PRINTF_SUPPORT.minimal" valueType="enumerated"/>
+</tool>
+<tool id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerRelease.923774182" name="MSP430 Linker" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.exe.linkerRelease">
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE.978886837" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.OUTPUT_FILE" value="&quot;radio_example.out&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE.158041613" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.MAP_FILE" value="&quot;radio_example.map&quot;" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY.1304712393" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.LIBRARY" valueType="libs">
+<listOptionValue builtIn="false" value="&quot;rts430.lib&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH.1704515332" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.SEARCH_PATH" valueType="stringList">
+<listOptionValue builtIn="false" value="&quot;${CCE_INSTALL_ROOT}/msp430/include&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/lib&quot;"/>
+<listOptionValue builtIn="false" value="&quot;${CG_TOOL_ROOT}/include&quot;"/>
+</option>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE.1488761198" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.HEAP_SIZE" value="80" valueType="string"/>
+<option id="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE.943224980" superClass="com.ti.ccstudio.buildDefinitions.MSP430_3.2.linkerID.STACK_SIZE" value="80" valueType="string"/>
+</tool>
+<macros/>
+</toolChain>
+</configuration>
+<macros/>
+</project>
+</ManagedProjectBuildInfo>

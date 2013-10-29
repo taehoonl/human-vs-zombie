@@ -1,0 +1,1 @@
+"./bsp/bsp.obj" "./game.obj" "./mrfi/mrfi.obj" -l"rts430.lib" "../lnk_msp430f2274.cmd" 
